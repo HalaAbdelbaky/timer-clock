@@ -1,0 +1,28 @@
+
+.container{
+  background-color: rgba(139, 211, 183, 0.753);
+  margin:25vh auto;
+  text-align: center;
+  padding:70px 0
+}
+.clock span{
+  font-size:calc(.03*100vw);
+  font-weight:bold
+}
+.clock{
+  background-color: white;
+  width:50vw;
+  margin:auto
+}
+.events {
+  margin-top:40px
+}
+.events span{
+  padding:10px 18px;
+  color:rgba(139, 211, 183, 0.753);
+  background-color:white;
+  cursor:pointer
+}
+.active{
+  color:rgba(139, 211, 183, 0.753);
+}
